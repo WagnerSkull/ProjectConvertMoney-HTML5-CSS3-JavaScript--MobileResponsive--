@@ -15,12 +15,12 @@
 <body>
   <div class="container">
     <header>
-      <h1>Convert Money</h1>
+      <h1>SkullConvert Money</h1>
     </header>
 
     <main>
       <label>
-        Converter de:
+        Converter <b>de:</b>
         <select>
           <option>
             R$ Real Brasileiro
@@ -29,7 +29,7 @@
       </label>
 
       <label>
-        Converter para:
+        Converter <b>para:</b>
         <select>
           <option>
             US$ Dólar Americano
@@ -42,24 +42,24 @@
 
       <label>
         Valor
-        <input placeholder="R$10.000,00">
-      </label>
+        <input id="input-real" placeholder="R$10.000,00">
+      </label>javascript inicial
 
-      <button type="button">Converter</button>
+      <button id="convert-button" type="button">Converter</button>
 
       <section>
-        <div>
-          <img src="./img/brasil 2@2x.png">
-          <p>Real</p>
-          <p>R$10.000,00</p>
+        <div class="currency-container">
+          <img src="./img/Brasil.png" alt="Bandeira BRASIL">
+          <p class="currency-name">Real</p>
+          <p class="currency-value" id="real-value-text">R$10.000,00</p>
         </div>
 
-        <img src="./img/Vector.png">
+        <img class="arrow-image" src="./img/Vector.png" alt="Seta">
 
-        <div>
-          <img src="./img/estados-unidos (1) 1@2x.png">
-          <p>Real</p>
-          <p>US$ 2.000,00</p>
+        <div class="currency-container">
+          <img src="./img/EstadosUnidos.png" alt="Bandeira EUA">
+          <p class="currency-name">Dólar Americano</p>
+          <p class="currency-value" id="currency-value-text">US$ 2.000,00</p>
         </div>
 
       </section>
@@ -69,7 +69,7 @@
 
 
 
-  <script src="./index.js"></script>
+  <script src="./scripts.js"></script>
 </body>
 
 </html>

@@ -1,5 +1,123 @@
-/*<style>
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
-</style>*/
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 18px;
+}
 
+body {
+    background-color: #e5e5e5;
+}
 
+.container {
+    width: 375px;
+    background-color: #f4f4f4;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+header {
+    background-image: linear-gradient(45deg, red, purple);
+    height: 66px;
+}
+
+h1 {
+    font-style: normal;
+    font-size: 24px;
+    color: #f4f4f4;
+    text-align: center;
+    padding-top: 25px;
+}
+
+main{
+    padding: 24px;
+}
+
+label{
+    font-style: normal;
+font-size: 14px;
+color: #777777;
+}
+
+select{
+    background: #FFFFFF;
+border: 1px solid #777777;
+border-radius: 4px;
+height: 48px;
+display: block;
+width: 100%;
+cursor: pointer;
+outline: none;
+padding-left: 16px;
+box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+margin-top: 6px;
+margin-bottom: 24px;
+}
+
+input{
+    background: #FFFFFF;
+    border: 1px solid #777777;
+    border-radius: 4px;
+    height: 48px;
+    display: block;
+    width: 100%;
+    outline: none;
+    padding-left: 16px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    font-size: 18px;
+}
+
+button{
+    background-image: linear-gradient(45deg, purple, red);
+    border-radius: 25px;
+    width: 327px;
+    cursor: pointer;
+    color: #f4f4f4;
+    border: none;
+    height: 48px;
+    font-style: normal;
+    border: none;
+    width: 100%;
+    margin-top: 24px;
+    margin-bottom: 36px;
+    font-weight: bold;
+}
+
+button:hover{
+    opacity: 0.7;
+}
+
+button:active{
+    opacity: 0.9;
+}
+
+section{
+    border: 1px solid purple;
+border-radius: 4px;
+}
+
+.currency-container{
+    text-align: center;
+    padding: 10px;
+}
+
+.currency-name{
+font-size: 14px;
+color: #777777;
+}
+
+.currency-value{
+    color: purple;
+    font-weight: bold;
+    font-size: 20px;
+    }
+
+    .arrow-image{
+        margin: 15px auto;
+        display: block;
+    }
+
+   
