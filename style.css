@@ -9,7 +9,11 @@
 }
 
 body {
-    background-color: black;
+    background-image: url('./img/wallBackground.jpg');
+    background-repeat: no-repeat;
+    background-position: center center; /* centraliza a imagem */
+  background-size: cover; /* ajusta a imagem para cobrir toda a tela */
+    
 }
 
 .container {
