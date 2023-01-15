@@ -78,6 +78,7 @@ changeCurrency = () => {
         //Trocando a img da Bandeira americana pela do EURO
         currencyImg.src = "./img/bitcoin.png"
     }
+    //Valor final
     convertValues()
 }
 
